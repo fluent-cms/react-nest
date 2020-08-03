@@ -1,0 +1,23 @@
+{
+    "appService.defaultWebAppToDeploy": "None",
+    "git.ignoreLimitWarning": true,
+    "vim.replaceWithRegister": true,
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "files.watcherExclude": {
+        "**/node_modules/**": true
+    },
+    "files.exclude": {
+        "**/build": true,
+        "**/dist": true,
+        "**/node_modules": true
+    }
+}

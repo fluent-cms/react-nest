@@ -1,0 +1,1 @@
+export const myDispatch = (dispatch:any,action:any) => dispatch(Object.assign({},action))

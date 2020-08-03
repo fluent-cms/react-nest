@@ -1,0 +1,50 @@
+{
+  "name": "create-react-app-with-typescript",
+  "version": "4.0.0",
+  "private": true,
+  "proxy": "http://localhost:4000/",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.55",
+    "@types/jwt-decode": "^2.2.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/uuid": "^8.0.0",
+    "class-validator": "^0.12.2",
+    "jwt-decode": "^2.2.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^5.7.2",
+    "react-redux": "^7.2.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "latest",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0",
+    "rxjs": "^6.5.5",
+    "rxjs-hooks": "^0.6.2",
+    "typescript": "latest",
+    "uuid": "^8.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

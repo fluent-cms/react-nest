@@ -1,0 +1,43 @@
+yarn.lock
+/src/client/yarn.lock
+package-lock.json
+/src/client/package-lock.json
+
+# compiled output
+/dist
+/node_modules
+/publish
+/src/config/private.config.ts
+
+/src/client/node_modules
+/src/client/build
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
