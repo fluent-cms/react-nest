@@ -2,7 +2,7 @@ yarn.lock
 /src/client/yarn.lock
 package-lock.json
 /src/client/package-lock.json
-
+db.sqlite
 # compiled output
 /dist
 /node_modules

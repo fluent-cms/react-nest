@@ -1,7 +1,7 @@
-import { Entity, Unique,Column, ManyToOne } from 'decorators/myTypeOrmDecorator';
 import { Client } from './client.entity';
-import { IsEmail, IsString, MinLength, MaxLength, Matches} from 'class-validator';
 import { MyBaseEntity } from './myBaseEntity';
+import { Entity, Unique,Column, ManyToOne } from 'decorators/myTypeOrmDecorator';
+import { IsEmail, IsString, MinLength, MaxLength, Matches} from 'class-validator';
 @Entity('user')
 @Unique(['username'])
 export class User extends MyBaseEntity {
