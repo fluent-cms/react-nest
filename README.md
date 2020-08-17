@@ -43,6 +43,10 @@ also set baseUrl to src in both package.json and src/client/package.json
 ```
     "baseUrl": "./src",
 ```
+add src/client to tsconfig.build.json
+```
+"exclude": ["node_modules", "test", "dist","src/client", "**/*spec.ts"]
+```
 ## run both frontend and backend in development mode
 - start backend first 
 ```
